@@ -1,9 +1,101 @@
-<mxfile host="app.diagrams.net" modified="2023-12-13T23:28:19.674Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" version="22.1.8" etag="IxqLsrWybo8wM1Yg0otB" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-14T12:04:27.003Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="29WJnkH_1kSn5wbF7V4D" version="22.1.8" type="github">
   <diagram name="Página-1" id="3xjMLZej0Dem8Eqz9D8S">
-    <mxGraphModel>
+    <mxGraphModel dx="1235" dy="563" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="GWckqZ3AVYxRYitDVD1S-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GWckqZ3AVYxRYitDVD1S-1" target="GWckqZ3AVYxRYitDVD1S-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GWckqZ3AVYxRYitDVD1S-1" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/integration/Service_Bus.svg;" vertex="1" parent="1">
+          <mxGeometry x="40" y="340" width="68" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GWckqZ3AVYxRYitDVD1S-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GWckqZ3AVYxRYitDVD1S-2" target="GWckqZ3AVYxRYitDVD1S-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GWckqZ3AVYxRYitDVD1S-2" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/Function_Apps.svg;" vertex="1" parent="1">
+          <mxGeometry x="220" y="340" width="68" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GWckqZ3AVYxRYitDVD1S-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GWckqZ3AVYxRYitDVD1S-4" target="GWckqZ3AVYxRYitDVD1S-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GWckqZ3AVYxRYitDVD1S-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GWckqZ3AVYxRYitDVD1S-4" target="GWckqZ3AVYxRYitDVD1S-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GWckqZ3AVYxRYitDVD1S-4" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/Cloud_Services_Classic.svg;" vertex="1" parent="1">
+          <mxGeometry x="218" y="490" width="72" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="GWckqZ3AVYxRYitDVD1S-6" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/SQL_Database.svg;" vertex="1" parent="1">
+          <mxGeometry x="230" y="630" width="48" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="GWckqZ3AVYxRYitDVD1S-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GWckqZ3AVYxRYitDVD1S-8" target="GWckqZ3AVYxRYitDVD1S-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GWckqZ3AVYxRYitDVD1S-8" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/integration/Service_Bus.svg;" vertex="1" parent="1">
+          <mxGeometry x="390" y="486" width="68" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GWckqZ3AVYxRYitDVD1S-17" value="Servicebus" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="44" y="310" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GWckqZ3AVYxRYitDVD1S-18" value="Topic Trigger" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="216" y="310" width="76" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GWckqZ3AVYxRYitDVD1S-19" value="Pre-Quote Service" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="144" y="501" width="76" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GWckqZ3AVYxRYitDVD1S-20" value="Servicebus" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="394" y="456" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GWckqZ3AVYxRYitDVD1S-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.003;entryY=0.461;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.995;exitY=0.528;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="GWckqZ3AVYxRYitDVD1S-22" target="GWckqZ3AVYxRYitDVD1S-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GWckqZ3AVYxRYitDVD1S-22" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/Cloud_Services_Classic.svg;" vertex="1" parent="1">
+          <mxGeometry x="560" y="490" width="72" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="GWckqZ3AVYxRYitDVD1S-24" value="Pre-Quote Subscriber" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="534" y="460" width="124" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GWckqZ3AVYxRYitDVD1S-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GWckqZ3AVYxRYitDVD1S-26" target="GWckqZ3AVYxRYitDVD1S-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GWckqZ3AVYxRYitDVD1S-26" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="59" y="460" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GWckqZ3AVYxRYitDVD1S-32" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="720" y="460" width="86" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="GWckqZ3AVYxRYitDVD1S-10" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/app_services/App_Services.svg;" vertex="1" parent="GWckqZ3AVYxRYitDVD1S-32">
+          <mxGeometry x="11" y="28" width="64" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="GWckqZ3AVYxRYitDVD1S-21" value="Quotation API (Digital)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="GWckqZ3AVYxRYitDVD1S-32">
+          <mxGeometry width="86" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GWckqZ3AVYxRYitDVD1S-33" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/SQL_Database.svg;" vertex="1" parent="1">
+          <mxGeometry x="739" y="630" width="48" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="GWckqZ3AVYxRYitDVD1S-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GWckqZ3AVYxRYitDVD1S-10" target="GWckqZ3AVYxRYitDVD1S-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GWckqZ3AVYxRYitDVD1S-40" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="748" y="370" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GWckqZ3AVYxRYitDVD1S-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GWckqZ3AVYxRYitDVD1S-21" target="GWckqZ3AVYxRYitDVD1S-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GWckqZ3AVYxRYitDVD1S-42" value="Inicio" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="36" y="486" width="76" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GWckqZ3AVYxRYitDVD1S-43" value="Fim" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="725" y="340" width="76" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GWckqZ3AVYxRYitDVD1S-44" value="Automation DB" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="207" y="694" width="94" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GWckqZ3AVYxRYitDVD1S-45" value="Quotation DB" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="716" y="694" width="94" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
